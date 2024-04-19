@@ -272,8 +272,9 @@ class _MyCalculatorState extends State<MyCalculator> {
             TypingButton(
                 onTap: () {
                   // print(".");
+                  onpressed(00);
                 },
-                text: ".",
+                text: "00",
                 color: Colors.teal),
             TypingButton(
                 onTap: () {
